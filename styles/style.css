@@ -1,0 +1,63 @@
+/* Variables
+-------------------------------------*/
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 70px;
+  color: #1C776E; }
+
+h3 {
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  color: #1C776E; }
+
+body {
+  background: url(../assets/imgs/light-dark-fog-lake.jpg);
+  background-size: 100%; }
+
+/* Navigation
+----------------------------------*/
+.navigation {
+  float: left;
+  height: 100%;
+  position: static;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 0; }
+  .navigation ul {
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%; }
+    .navigation ul li {
+      padding: 30px 0;
+      transition: background 0.5s ease; }
+      .navigation ul li a {
+        color: #36B9AC;
+        width: 50px;
+        transition: color 0.5s ease; }
+    .navigation ul li:hover {
+      background: #36B9AC; }
+      .navigation ul li:hover a {
+        color: #000; }
+
+/* Content/scroll
+---------------------------------------*/
+.scroll {
+  overflow-y: scroll;
+  height: 100%; }
+  .scroll .title-section {
+    text-align: center;
+    margin: 70px auto; }
+  .scroll .icon-row .icon-sections {
+    text-align: center; }
+    .scroll .icon-row .icon-sections img {
+      width: 60%; }
+    .scroll .icon-row .icon-sections p {
+      color: #dff6f4;
+      width: 200px;
+      margin: 20px auto; }
+  .scroll .text-section {
+    margin: 70px auto; }
+    .scroll .text-section p {
+      color: #dff6f4; }
+
+/*# sourceMappingURL=style.css.map */

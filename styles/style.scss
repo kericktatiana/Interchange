@@ -1,0 +1,101 @@
+/* Variables
+-------------------------------------*/
+$teal: #36B9AC;
+$dark-teal: #1C776E;
+$light-teal: #dff6f4;
+
+$pacifico: 'Lobster', cursive;
+
+h1 {
+	font-family: $pacifico;
+	font-size: 70px;
+	color: $dark-teal;
+}
+
+h3 {
+	font-family: $pacifico;
+	font-size: 20px;
+	color: $dark-teal;
+}
+
+
+body {
+	background: url(../assets/imgs/light-dark-fog-lake.jpg);
+	background-size: 100%;
+}
+
+
+/* Navigation
+----------------------------------*/
+.navigation {
+	float: left;
+	height: 100%;
+	position: static;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 30px 0;
+
+	ul {
+		list-style-type: none;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+		
+		li {
+			padding: 30px 0;
+			transition: background 0.5s ease;
+
+			a {
+				color: $teal;
+				width: 50px;
+				transition: color 0.5s ease;
+			}
+		}
+
+		li:hover {
+			background: $teal;
+
+			a {
+				color: #000;
+			}
+		}
+	}
+}
+
+
+
+/* Content/scroll
+---------------------------------------*/
+.scroll {
+	overflow-y: scroll;
+	height: 100%; 
+	
+
+	.title-section {
+		text-align: center;
+		margin: 70px auto;
+	}
+
+	.icon-row {
+
+		.icon-sections {
+			text-align: center;
+
+			img {
+				width: 60%;
+			}
+
+			p {
+				color: $light-teal;
+				width: 200px;
+				margin: 20px auto;
+			}
+		}
+	}
+
+	.text-section {
+		margin: 70px auto;
+
+		p { color: $light-teal; }
+	}
+
+}
