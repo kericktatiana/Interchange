@@ -5,72 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Interchage</title>
 
+	<!-- Angular -->
+	<script src="scripts/vendor/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+
 	<link rel="stylesheet" href="styles/foundation.css" />
-    <script src="scripts/vendor/modernizr.js"></script>
+  <script src="scripts/vendor/modernizr.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body ng-app="InterApp">
+	
+<div ng-view></div>
 
-<nav class="navigation large-1 columns">
-	<ul>
-		<li><a href="#">Home</a></li>
+<!-- Modules -->
+<script src="scripts/app.js"></script>
 
-		<li><a href="#">Page</a></li>
+<!-- Controllers -->
+<script src="scripts/controllers/MainController.js"></script>
 
-		<li><a href="#">Another Page</a></li>
-
-		<li><a href="#">Last</a></li>
-	</ul>
-</nav>
-
-
-<div class="scroll large-11 columns">
-
-	<div class="row title-section">
-		<div class="col-md-12 title-row">
-			<h1>Interchange</h1>
-
-			<h3>Because, where else am I going to test designs?</h3>
-		</div>
-	</div>
-
-	<div class="row icon-row">
-		<div class="large-4 columns icon-sections">
-			<img src="assets/imgs/hipsterIcons/convers.png">
-			<p>This is an icon of a shoe</p>
-		</div>
-
-		<div class="large-4 columns icon-sections">
-			<img src="assets/imgs/hipsterIcons/glasses.png">
-			<p>This is a pair of glasses, something I need to wear</p>
-		</div>
-
-		<div class="large-4 columns icon-sections">
-			<img src="assets/imgs/hipsterIcons/coffee.png">
-			<p>Coffee = life force</p>
-		</div>
-	</div>
-
-	<div class="row text-section">
-		<div class="large-12">
-			<h3>This is a title, no big deal...</h3>
-		</div>
-
-		<div class="large-6 columns">
-			<p>Cupcake ipsum dolor sit amet tart sweet brownie. Bonbon sesame snaps marzipan icing. Sugar plum dessert jelly-o cupcake chocolate bar lemon drops sugar plum biscuit. Sweet roll cookie powder. Sweet roll muffin bear claw candy canes ice cream gummi bears liquorice topping marshmallow. Toffee marzipan gingerbread pudding. Apple pie jelly gummi bears soufflé ice cream icing oat cake candy canes.</p>
-		</div>
-
-		<div class="large-6 columns">
-			<p>Cupcake ipsum dolor sit amet tart sweet brownie. Bonbon sesame snaps marzipan icing. Sugar plum dessert jelly-o cupcake chocolate bar lemon drops sugar plum biscuit. Sweet roll cookie powder. Sweet roll muffin bear claw candy canes ice cream gummi bears liquorice topping marshmallow. Toffee marzipan gingerbread pudding. Apple pie jelly gummi bears soufflé ice cream icing oat cake candy canes.</p>
-		</div>
-	</div>
-
-</div>
-
-
+<!-- Services -->
+<script src="scripts/services/displays.js"></script>
 
 <script src="scripts/vendor/jquery.js"></script>
 <script src="scripts/foundation.min.js"></script>
