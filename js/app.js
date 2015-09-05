@@ -4,7 +4,7 @@ app.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
       controller: 'MainController',
-      templateUrl: 'views/home.html'
+      templateUrl: 'views/main.html'
     })
     .when('/:id', {
       controller: 'DisplayController',
@@ -13,4 +13,4 @@ app.config(function ($routeProvider) {
     .otherwise({
       redirectTo: '/'
     });
-})
+});
