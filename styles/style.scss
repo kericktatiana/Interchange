@@ -13,11 +13,16 @@ h3 {
 	color: $dark-teal;
 }
 
-.main {
-	background: url(../assets/imgs/light-dark-fog-lake.jpg);
-	background-size: 100%;
+.container-main {
 	width: 100%;
 	height: 100%;
+
+	.test {
+		background: url(../assets/imgs/light-dark-fog-lake.jpg);
+		background-size: 100%;
+		width: 100%;
+		height: 100%;
+	}
 }
 
 
