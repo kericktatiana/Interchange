@@ -1,16 +1,18 @@
-var app = angular.module('InterApp', ['ngRoute']);
+'use strict';
+
+var app = angular.module('InterApp', ['ngRoute', 'ngSanitize']);
 
 app.config(function ($routeProvider) {
 	$routeProvider
-		.when('/index', {
+		.when('/', {
 			controller: 'MainController',
 			templateUrl: 'views/main.html'
 		})
-		.when('/index/:id', {
+		.when('/:id', {
 			controller: 'DisplayController',
 			templateUrl: 'views/display.html'
 		})
 		.otherwise({
-			redirectTo: '/index'
+			redirectTo: '/'
 		});
 })

@@ -27,3 +27,26 @@ $dark-teal: #1C776E;
 $light-teal: #dff6f4;
 
 $pacifico: 'Lobster', cursive;
+
+
+/* Mixins
+-------------------------------------*/
+@mixin shadowBottom {
+	-webkit-box-shadow: 0px 3px 24px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 24px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 24px 0px rgba(0,0,0,0.75);
+}
+
+@mixin shadowTop {
+	-webkit-box-shadow: 0px -3px 24px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -3px 24px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px -24px 0px rgba(0,0,0,0.75);
+}
+
+
+/* Body customs
+--------------------------------------*/
+.full {
+	max-width: 100%;
+	text-align: center;
+}

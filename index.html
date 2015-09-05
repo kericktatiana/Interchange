@@ -7,24 +7,29 @@
 
 	<!-- Angular -->
 	<script src="scripts/vendor/angular.min.js"></script>
-	<script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+	<script src="scripts/vendor/angular-route.min.js"></script>
+	<script src="scripts/vendor/angular-sanitize.min.js"></script>
 
 	<link rel="stylesheet" href="styles/foundation.css" />
   <script src="scripts/vendor/modernizr.js"></script>
 
+  	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 
+	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="assets/fonts/foundation-icons.css">
 </head>
 <body ng-app="InterApp">
 	
-<div class="container-main" ng-view></div>
+<div ng-view class="app-container"></div>
 
 <!-- Modules -->
 <script src="scripts/app.js"></script>
 
 <!-- Controllers -->
 <script src="scripts/controllers/MainController.js"></script>
+<script src="scripts/controllers/DisplayController.js"></script>
 
 <!-- Services -->
 <script src="scripts/services/displays.js"></script>
