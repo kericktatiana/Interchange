@@ -1,33 +1,30 @@
 <div id="main">
+
 	<div class="row full">
 		<div class="large-12 header">
 			<h1>InterChange</h1>
-			<h3>Design playground</h3>
+			<h3>Design Playground</h3>
 		</div>
-	</div>
+	</div>	
 
 	<div class="row">
-		<div class="large-12">
-			<div ng-repeat="display in displays">
-				<div class="large-4 column">
-					<a href="#/{{ $index }}">
-						{{ display.title }}
-					</a>
-				</div>
-			</div><!-- ng-repeat -->
+		<div ng-repeat="display in displays">
+			<div class="large-4 column displays">
+				<a href="#/{{ display $index }}">{{ display.title}}</a>
+			</div>
 		</div>
 	</div>
 
 	<div class="row full">
 		<div class="large-12 footer">
 			<div class="large-6 column">
-				<p>&lt;&nbsp;/&gt; with <span class="fi-heart"></span> by <a href="tatianakerick.com">Tatiana Kerick</a></p>
+				<p>&lt;&nbsp;/&gt; with <span class="fi-heart"> by <a href="tatianakerick.com">Tatiana Kerick</a></span></p>
 			</div>
 
 			<div class="large-6 column">
-				<p>&copy;2015</p>
+				<p>&copy; 2015</p>
 			</div>
 		</div>
 	</div>
-
+	
 </div><!-- main -->
