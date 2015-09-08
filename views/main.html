@@ -10,7 +10,10 @@
 	<div class="row">
 		<div ng-repeat="display in displays">
 			<div class="large-4 column displays">
-				<a href="#/{{ $index }}">{{ display.title}}</a>
+				<a href="#/{{ $index }}">
+					<img src="assets/imgs/placeholders/{{ display.img }}">
+					<span><p>{{ display.title}}</p></span>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -18,7 +21,7 @@
 	<div class="row full">
 		<div class="large-12 footer">
 			<div class="large-6 column">
-				<p>&lt;&nbsp;/&gt; with <span class="fi-heart"> by <a href="tatianakerick.com">Tatiana Kerick</a></span></p>
+				<p>&lt;&nbsp;/&gt; with <span class="fi-heart"> by <a href="http://tatianakerick.com">Tatiana Kerick</a></span></p>
 			</div>
 
 			<div class="large-6 column">

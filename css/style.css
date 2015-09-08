@@ -12,13 +12,46 @@
   width: 100%;
   height: 100%; }
 
+a {
+  transition: color 0.3s ease; }
+
+#hipstum {
+  width: 100%;
+  height: 100%;
+  background: url(../assets/imgs/bgs/light-dark-fog-lake.jpg);
+  background-size: 100%; }
+  #hipstum #hip-nav {
+    float: left;
+    width: 10%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); }
+    #hipstum #hip-nav ul {
+      text-align: center;
+      margin-left: 0;
+      margin-top: 40px; }
+      #hipstum #hip-nav ul li {
+        list-style: none;
+        padding: 20px 0 40px 0;
+        margin: 10px 0 30px 0;
+        height: 50px; }
+        #hipstum #hip-nav ul li a {
+          color: #dff6f4; }
+      #hipstum #hip-nav ul li:hover {
+        background-color: #1C776E; }
+        #hipstum #hip-nav ul li:hover a {
+          color: #000; }
+  #hipstum .container {
+    float: left;
+    width: 90%;
+    text-align: center; }
+
 /* landing - MAIN
 --------------------------------------*/
 #main {
   background: url(../assets/imgs/bgs/blur.jpg);
   background-size: 100%;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   width: 100%;
   height: 100%; }
   #main h1, #main h3 {
@@ -32,13 +65,34 @@
     background: url(../assets/imgs/patterns/confectionary.png) #fff;
     opacity: .7;
     padding: 30px 0 50px 0; }
+  #main .header {
+    margin-bottom: 20px; }
   #main .footer {
     margin-top: 30px; }
+    #main .footer a {
+      color: #1C776E; }
+      #main .footer a:hover {
+        color: #092422; }
   #main .displays {
-    height: 30px;
+    height: 300px;
     text-align: center;
     margin: 20px 0; }
-    #main .displays a {
-      color: #e9e9e9; }
+    #main .displays a img {
+      transition: filter 0.3s ease; }
+    #main .displays a span {
+      background-color: rgba(41, 10, 51, 0.5);
+      padding: 15px 24% 20px 24%;
+      color: #e9e9e9;
+      transition: background-color 0.3s ease; }
+      #main .displays a span:hover {
+        background-color: rgba(41, 10, 51, 0.8); }
+      #main .displays a span p {
+        width: 150px;
+        display: inline-block; }
+    #main .displays a:hover img {
+      -webkit-filter: blur(0.9px);
+      filter: blur(1px); }
+    #main .displays a:hover span {
+      background-color: rgba(41, 10, 51, 0.8); }
 
 /*# sourceMappingURL=style.css.map */
