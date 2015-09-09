@@ -6,8 +6,10 @@
 		"divs": "hip"
 	},
 	{
-		"title": "meow",
-		"img": "screenshots/cat.jpg"
+		"title": "Papuurr",
+		"img": "screenshots/cat.jpg",
+		"container": "papur",
+		"divs": "pur"
 	},
 	{
 		"title": "moose",

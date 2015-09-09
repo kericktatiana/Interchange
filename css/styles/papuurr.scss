@@ -1,0 +1,40 @@
+// Stylesheet for papuurr
+
+$background: #fffcf5;
+$grey: #8f908a;
+$accent-red: #7f5958;
+$accent-blue: #517075;
+
+#papur {
+	background: $background;
+
+	#pur-nav {
+		ul {
+			margin: 10px 0 10px 41%;
+
+			li {
+				list-style-type: none;
+				display: inline-block;
+				margin: 10px 40px;
+
+
+			}
+		}
+
+		ul::before {
+			content: url(../assets/imgs/hipsterIcons/papur-logo.png);
+			margin-right: 41%;
+		}
+	}
+
+	.pur-section1 {
+		background: url(../assets/imgs/bgs/papur.jpeg);
+		max-width: 100%;
+	}
+
+	.pur-section2 {
+		img {
+			-webkit-filter: hue-rotate(180deg);
+		}
+	}
+}

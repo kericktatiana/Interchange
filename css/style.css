@@ -96,6 +96,23 @@ a {
             #hipstum .container .hip-footer .large-6 p a:hover {
               color: #B3C9D8; }
 
+#papur {
+  background: #fffcf5; }
+  #papur #pur-nav ul {
+    margin: 10px 0 10px 41%; }
+    #papur #pur-nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin: 10px 40px; }
+  #papur #pur-nav ul::before {
+    content: url(../assets/imgs/hipsterIcons/papur-logo.png);
+    margin-right: 41%; }
+  #papur .pur-section1 {
+    background: url(../assets/imgs/bgs/papur.jpeg);
+    max-width: 100%; }
+  #papur .pur-section2 img {
+    -webkit-filter: hue-rotate(180deg); }
+
 /* landing - MAIN
 --------------------------------------*/
 #main {
