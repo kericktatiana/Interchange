@@ -20,6 +20,16 @@ a {
   height: 100%;
   background: url(../assets/imgs/bgs/light-dark-fog-lake.jpg);
   background-size: 100%; }
+  #hipstum h1 {
+    font-family: "Hammersmith One", sans-serif;
+    color: #176059;
+    font-size: 70px; }
+  #hipstum h3 {
+    font-family: "Hammersmith One", sans-serif;
+    color: #B3C9D8;
+    font-size: 20px; }
+  #hipstum p {
+    color: #032926; }
   #hipstum #hip-nav {
     float: left;
     width: 10%;
@@ -35,15 +45,56 @@ a {
         margin: 10px 0 30px 0;
         height: 50px; }
         #hipstum #hip-nav ul li a {
-          color: #dff6f4; }
+          color: #B3C9D8; }
       #hipstum #hip-nav ul li:hover {
-        background-color: #1C776E; }
+        background-color: #176059; }
         #hipstum #hip-nav ul li:hover a {
           color: #000; }
   #hipstum .container {
     float: left;
     width: 90%;
-    text-align: center; }
+    text-align: center;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.1); }
+    #hipstum .container .hip-section1 {
+      background: rgba(0, 0, 0, 0.1);
+      max-width: 100%;
+      padding: 30px 0 20px 0;
+      margin-bottom: 70px; }
+      #hipstum .container .hip-section1 p {
+        width: 50%;
+        margin: 0 auto; }
+    #hipstum .container .hip-section2 {
+      margin-bottom: 70px; }
+      #hipstum .container .hip-section2 .large-4 img {
+        width: 84%; }
+      #hipstum .container .hip-section2 .large-4 h3 {
+        width: 200px;
+        margin: 10px auto; }
+    #hipstum .container .hip-section3 {
+      text-align: left;
+      margin-bottom: 70px; }
+      #hipstum .container .hip-section3 h4 {
+        color: #CFDFEA;
+        font-family: "Hammersmith One", sans-serif; }
+      #hipstum .container .hip-section3 p {
+        color: #CFDFEA; }
+      #hipstum .container .hip-section3 .large-6:last-child {
+        margin-top: 44px; }
+    #hipstum .container .hip-footer {
+      background-color: rgba(0, 0, 0, 0.2);
+      max-width: 100%;
+      padding: 30px 0 20px 0; }
+      #hipstum .container .hip-footer .large-6 {
+        text-align: left;
+        padding: 0 12%; }
+        #hipstum .container .hip-footer .large-6 p {
+          color: #B3C9D8; }
+          #hipstum .container .hip-footer .large-6 p a {
+            color: #57C5B9; }
+            #hipstum .container .hip-footer .large-6 p a:hover {
+              color: #B3C9D8; }
 
 /* landing - MAIN
 --------------------------------------*/
@@ -56,7 +107,7 @@ a {
   height: 100%; }
   #main h1, #main h3 {
     font-family: "Lobster", cursive;
-    color: #1C776E; }
+    color: #176059; }
   #main h1 {
     font-size: 75px; }
   #main h3 {
@@ -70,9 +121,9 @@ a {
   #main .footer {
     margin-top: 30px; }
     #main .footer a {
-      color: #1C776E; }
+      color: #176059; }
       #main .footer a:hover {
-        color: #092422; }
+        color: #030e0d; }
   #main .displays {
     height: 300px;
     text-align: center;

@@ -4,6 +4,23 @@
 	background: url(../assets/imgs/bgs/light-dark-fog-lake.jpg);
 	background-size: 100%;
 
+	h1 {
+		font-family: $hammersmith;
+		color: $dark-teal;
+		font-size: 70px;
+	}
+
+	h3 {
+		font-family: $hammersmith;
+		color: $hip-blue;
+		font-size: 20px;
+	}
+
+	p {
+		color: #032926;
+	}
+
+
 	#hip-nav {
 		float: left;
 		width: 10%;
@@ -22,7 +39,7 @@
 				height: 50px;
 
 				a {
-					color: $light-teal;
+					color: $hip-blue;
 				}
 			}
 
@@ -40,5 +57,73 @@
 		float: left;
 		width: 90%;
 		text-align: center;
+		height: 100%;
+		overflow-y: scroll;
+		background-color: rgba(0, 0, 0, 0.1);
+
+		.hip-section1 {
+			background: rgba(0, 0, 0, 0.1);
+			max-width: 100%;
+			padding: 30px 0 20px 0;
+			margin-bottom: 70px;
+
+			p {
+				width: 50%;
+				margin: 0 auto;
+			}
+		}
+
+		.hip-section2 {
+			margin-bottom: 70px;
+
+			.large-4 {
+				img { width: 84%; }
+
+				h3 { 
+					width: 200px; 
+					margin: 10px auto; 
+				}
+			}
+		}
+
+		.hip-section3 {
+			text-align: left; 
+			margin-bottom: 70px;
+
+			h4 {
+				color: #CFDFEA;
+				font-family: $hammersmith;
+			}
+
+			p {
+				color: #CFDFEA;
+			}
+
+			.large-6:last-child { margin-top: 44px; }
+		}
+
+		.hip-footer {
+			background-color: rgba(0, 0, 0, 0.2);
+			max-width: 100%;
+			padding: 30px 0 20px 0;
+
+			.large-6 { 
+				text-align: left; 
+				padding: 0 12%;
+
+				p { 
+					color: $hip-blue; 
+
+					a { 
+						color: #57C5B9; 
+
+						&:hover {
+							color: $hip-blue;
+						}
+					}
+				}
+
+			} 
+		}
 	}
 }
