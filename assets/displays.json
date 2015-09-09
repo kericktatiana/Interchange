@@ -1,16 +1,16 @@
 [
 	{
 		"title": "Hipstum",
-		"img": "cat.jpg",
+		"img": "screenshots/hipstum.png",
 		"container": "hipstum",
 		"divs": "hip"
 	},
 	{
 		"title": "meow",
-		"img": "cat.jpg"
+		"img": "screenshots/cat.jpg"
 	},
 	{
 		"title": "moose",
-		"img": "cat.jpg"
+		"img": "screenshots/cat.jpg"
 	}
 ]
