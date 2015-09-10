@@ -2,39 +2,102 @@
 
 $background: #fffcf5;
 $grey: #8f908a;
-$accent-red: #7f5958;
+$brown: #381917;
+$accent-red: #8a4048;
 $accent-blue: #517075;
 
 #papur {
 	background: $background;
 
+	h1 {
+		font-family: $satisfy;
+		color: $accent-red;
+		font-size: 75px;
+	}
+
+	h3 {
+		color: $accent-red;
+		font-size: 25px;
+	}
+
+	h4 {
+		color: $accent-red;
+		font-size: 20px;
+	}
+
+	p { color: $brown; }
+
 	#pur-nav {
 		ul {
-			margin: 10px 0 10px 41%;
+			margin-left: 16%;
+			padding: 20px 0 25px 0;
 
 			li {
 				list-style-type: none;
 				display: inline-block;
 				margin: 10px 40px;
 
+				a {
+					color: $brown;
+					font-size: 17px;
+					transition: border-bottom .3s ease;
+
+					&:hover {
+						color: $accent-blue;
+						border-bottom: 3px solid $accent-blue;
+					}
+				}
 
 			}
 		}
 
 		ul::before {
 			content: url(../assets/imgs/hipsterIcons/papur-logo.png);
-			margin-right: 41%;
+			margin-right: 36%;
 		}
 	}
 
 	.pur-section1 {
 		background: url(../assets/imgs/bgs/papur.jpeg);
+		background-size: 100%;
 		max-width: 100%;
+		height: 300px;
+		padding: 30px 16% 0 16%;
+		margin-bottom: 70px;
+
+		p {
+			width: 511px;
+		}
 	}
 
 	.pur-section2 {
-		img {
-			-webkit-filter: hue-rotate(180deg);
+		margin-bottom: 70px;
+
+		.large-4 {
+			text-align: center;
+
+			img {
+				-webkit-filter: hue-rotate(180deg);
+				width: 50%;
+			}
+		}
+	}
+
+	.pur-section3 {
+		margin-bottom: 70px;
+
+		.large-6:last-child { margin-top: 39px; }
+	}
+
+	.pur-footer {
+		a { 
+			color: $brown;
+			transition: border-bottom .3s ease;
+
+			&:hover {
+				color: $accent-blue;
+				border-bottom: 3px solid $accent-blue;
+			}
 		}
 	}
 }
