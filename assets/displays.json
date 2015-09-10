@@ -12,7 +12,9 @@
 		"divs": "pur"
 	},
 	{
-		"title": "moose",
-		"img": "screenshots/cat.jpg"
+		"title": "Awesome Pants",
+		"img": "screenshots/cat.jpg",
+		"container": "awesomePants",
+		"divs": "pants"
 	}
 ]
