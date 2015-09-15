@@ -154,6 +154,39 @@ a {
       color: #517075;
       border-bottom: 3px solid #517075; }
 
+#grid {
+  background: #E2E3E3; }
+  #grid #grid-nav {
+    background: url(../assets/imgs/bgs/workspace.jpg);
+    background-size: 100%;
+    background-position-y: -456px;
+    background-repeat-y: no-repeat;
+    height: 400px;
+    padding: 0 35%; }
+    #grid #grid-nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin: 30px 40px; }
+      #grid #grid-nav ul li a {
+        color: #cbd8db;
+        font-size: 18px; }
+  #grid .grid-section1 {
+    height: 350px;
+    padding: 100px 10%;
+    text-align: center; }
+    #grid .grid-section1 h1 {
+      font-size: 20px;
+      font-weight: 500; }
+  #grid .grid-section2 {
+    max-width: 100%; }
+    #grid .grid-section2 .large-4 {
+      clear: left; }
+    #grid .grid-section2 .col-1::before {
+      content: url(../assets/imgs/bgs/laptop.jpg);
+      display: inline-block;
+      width: 10px;
+      height: 10px; }
+
 /* landing - MAIN
 --------------------------------------*/
 #main {

@@ -1,0 +1,64 @@
+$grey: #E2E3E3;
+$brown: #86644a;
+$blue: #cbd8db;
+$charcoal: #343434;
+
+#grid {
+	background: $grey;
+
+	#grid-nav {
+		background: url(../assets/imgs/bgs/workspace.jpg);
+		background-size: 100%;
+		background-position-y: -456px;
+		background-repeat-y: no-repeat;
+		height: 400px;
+		padding: 0 35%;
+
+		ul {
+			li {
+				list-style-type: none;
+				display: inline-block;
+				margin: 30px 40px;
+
+				a {
+					color: $blue;
+					font-size: 18px;
+
+				}
+			}
+		}
+	}
+
+
+	.grid-section1 {
+		height: 350px;
+		padding: 100px 10%;
+		text-align: center;
+
+		h1 {
+			font-size: 20px;
+			font-weight: 500;
+		}
+	}
+
+
+	.grid-section2 {
+		max-width: 100%;
+
+
+		.large-4 {
+			clear: left;
+		}
+
+		.col-1 {
+
+		}
+
+		.col-1::before {
+			content: url(../assets/imgs/bgs/laptop.jpg);
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+		}
+	}
+}
