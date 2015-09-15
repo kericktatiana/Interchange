@@ -12,9 +12,9 @@
 		"divs": "pur"
 	},
 	{
-		"title": "Awesome Pants",
+		"title": "Grid Like",
 		"img": "screenshots/cat.jpg",
-		"container": "awesomePants",
-		"divs": "pants"
+		"container": "grid",
+		"divs": "grid"
 	}
 ]
