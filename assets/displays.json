@@ -1,19 +1,19 @@
 [
 	{
 		"title": "Hipstum",
-		"img": "screenshots/hipstum.png",
+		"img": "screenshots/hipstum.jpg",
 		"container": "hipstum",
 		"divs": "hip"
 	},
 	{
 		"title": "Papuurr",
-		"img": "screenshots/cat.jpg",
+		"img": "screenshots/papuurr.jpg",
 		"container": "papur",
 		"divs": "pur"
 	},
 	{
 		"title": "Grid Like",
-		"img": "screenshots/cat.jpg",
+		"img": "screenshots/grid.jpg",
 		"container": "grid",
 		"divs": "grid"
 	}
