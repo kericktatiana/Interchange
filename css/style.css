@@ -157,12 +157,12 @@ a {
 #grid {
   background: #E2E3E3; }
   #grid #grid-nav {
+    text-align: center;
     background: url(../assets/imgs/bgs/workspace.jpg);
     background-size: 100%;
     background-position-y: -456px;
     background-repeat-y: no-repeat;
-    height: 400px;
-    padding: 0 35%; }
+    height: 400px; }
     #grid #grid-nav ul li {
       list-style-type: none;
       display: inline-block;
@@ -170,6 +170,8 @@ a {
       #grid #grid-nav ul li a {
         color: #cbd8db;
         font-size: 18px; }
+        #grid #grid-nav ul li a:hover {
+          color: #86644a; }
   #grid .grid-section1 {
     height: 350px;
     padding: 100px 10%;
@@ -180,12 +182,67 @@ a {
   #grid .grid-section2 {
     max-width: 100%; }
     #grid .grid-section2 .large-4 {
-      clear: left; }
-    #grid .grid-section2 .col-1::before {
-      content: url(../assets/imgs/bgs/laptop.jpg);
-      display: inline-block;
-      width: 10px;
-      height: 10px; }
+      clear: left;
+      float: none;
+      display: block;
+      width: 100%;
+      height: 450px; }
+      #grid .grid-section2 .large-4 img {
+        display: none; }
+    #grid .grid-section2 .col-1 {
+      background: url(../assets/imgs/bgs/woodtop.jpg) #CACACA;
+      background-size: 50%;
+      background-repeat: no-repeat; }
+      #grid .grid-section2 .col-1 h3 {
+        margin-left: 69%;
+        width: 210px;
+        text-align: center;
+        padding-top: 186px; }
+    #grid .grid-section2 .col-2 {
+      background: url(../assets/imgs/bgs/workspace.jpg) #9C9C9C;
+      background-size: 50%;
+      background-repeat: no-repeat;
+      background-position-x: 100%;
+      margin-top: -4px; }
+      #grid .grid-section2 .col-2 h3 {
+        margin-left: 16%;
+        width: 210px;
+        text-align: center;
+        padding-top: 186px; }
+    #grid .grid-section2 .col-3 {
+      height: 300px;
+      text-align: center;
+      margin-top: -4px; }
+      #grid .grid-section2 .col-3 h3 {
+        width: 300px;
+        padding-top: 100px;
+        color: #9C9C9C;
+        margin-left: 39%; }
+  #grid .grid-section3 {
+    max-width: 100%;
+    height: 400px;
+    background: url(../assets/imgs/bgs/airspace.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -332px;
+    padding: 50px 0 0 30%; }
+    #grid .grid-section3 .large-6 {
+      clear: left;
+      float: none;
+      display: block;
+      background: rgba(255, 255, 255, 0.5);
+      text-align: center; }
+      #grid .grid-section3 .large-6:last-child {
+        display: none; }
+  #grid .grid-footer {
+    height: 80px;
+    padding-top: 32px; }
+    #grid .grid-footer p {
+      color: #343434; }
+      #grid .grid-footer p a {
+        color: #343434; }
+        #grid .grid-footer p a:hover {
+          color: #86644a; }
 
 /* landing - MAIN
 --------------------------------------*/
