@@ -1,0 +1,88 @@
+$grey: #312e30;
+$white: #d3d3d3;
+
+#circles {
+	background: 
+		linear-gradient(rgba(45, 3, 50, 0.65), rgba(21, 13, 29, 0.9)), 
+		url(../assets/imgs/bgs/nature-sky-clouds-cloudy.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+
+	#circles-nav {
+		ul {
+			margin-left: 18%;
+			padding: 20px 0 25px 0;
+
+			li {
+				list-style-type: none;
+				display: inline-block;
+				margin: 0 50px 20px 50px;
+
+				a {
+					font-size: 17px;
+					transition: border-bottom .3s ease;
+
+					&:hover {
+						border-bottom: 3px solid $accent-blue;
+					}
+				}
+
+				&:nth-child(2) {
+					margin-right: 27%;
+				}
+
+			}
+		}
+
+		ul::after {
+			content: url(../assets/imgs/hipsterIcons/circles-logo.png);
+			margin-left: -49%;
+		}
+	}
+
+	.circles-section1 {
+		text-align: center;
+		margin-top: 80px;
+		margin-bottom: 50px;
+		background: #131010;
+		width: 400px;
+		height: 400px;
+		border-radius: 50%;
+		padding-top: 90px;
+
+		-webkit-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+
+		h1 {
+			font-family: $dancing;
+			color: $white;
+		}
+		h1::after {
+			content: '-';
+			display: block;
+			font-size: 180px;
+			position: relative;
+			top: -129px;
+			height: 20px;
+		}
+
+		p {
+			color: $white;
+			width: 370px;
+			padding: 32px 0 0 27px;
+		}
+	}
+
+
+	.circles-section2 {
+		.large-4 {
+			display: block;
+			clear: left;
+			float: none;
+		}
+
+	}
+
+}

@@ -16,5 +16,11 @@
 		"img": "screenshots/grid.jpg",
 		"container": "grid",
 		"divs": "grid"
+	},
+	{
+		"title": "Circles",
+		"img": "screenshots/cat.jpg",
+		"container": "circles",
+		"divs": "circles"
 	}
 ]
