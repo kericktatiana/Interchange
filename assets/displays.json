@@ -22,5 +22,11 @@
 		"img": "screenshots/circles.jpg",
 		"container": "circles",
 		"divs": "circles"
+	},
+	{
+		"title": "More Darkly",
+		"img": "screenshots/cat.jpg",
+		"container": "darkly",
+		"divs": "darkly"
 	}
 ]
