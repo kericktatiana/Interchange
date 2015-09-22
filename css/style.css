@@ -249,27 +249,32 @@ a {
   background-size: 100%;
   background-attachment: fixed;
   width: 100%; }
-  #circles #circles-nav ul {
-    margin-left: 18%;
-    padding: 20px 0 25px 0; }
-    #circles #circles-nav ul li {
-      list-style-type: none;
-      display: inline-block;
-      margin: 0 50px 20px 50px; }
-      #circles #circles-nav ul li a {
-        font-size: 17px;
-        transition: border-bottom .3s ease; }
-        #circles #circles-nav ul li a:hover {
-          border-bottom: 3px solid #517075; }
-      #circles #circles-nav ul li:nth-child(2) {
-        margin-right: 27%; }
-  #circles #circles-nav ul::after {
-    content: url(../assets/imgs/hipsterIcons/circles-logo.png);
-    margin-left: -49%; }
+  #circles #circles-nav {
+    width: 100%;
+    text-align: center; }
+    #circles #circles-nav ul {
+      padding: 40px 0 25px 0; }
+      #circles #circles-nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 50px 20px 50px; }
+        #circles #circles-nav ul li a {
+          font-size: 17px;
+          transition: border-bottom .3s ease;
+          color: #B7ADC5; }
+          #circles #circles-nav ul li a:hover {
+            border-bottom: 3px solid #A951A0; }
+        #circles #circles-nav ul li:nth-child(2) {
+          margin-right: 27%; }
+    #circles #circles-nav ul::after {
+      content: url(../assets/imgs/hipsterIcons/circles-logo.png);
+      right: 43%;
+      top: 10px;
+      position: absolute; }
   #circles .circles-section1 {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
     background: #131010;
     width: 400px;
     height: 400px;
@@ -292,10 +297,67 @@ a {
       color: #d3d3d3;
       width: 370px;
       padding: 32px 0 0 27px; }
+  #circles .circles-section2 h3 {
+    color: #C1BBC1;
+    width: 250px;
+    text-align: center;
+    padding: 100px 0 0 40px; }
   #circles .circles-section2 .large-4 {
-    display: block;
+    float: none;
     clear: left;
-    float: none; }
+    height: 332px;
+    width: 100%; }
+    #circles .circles-section2 .large-4 img {
+      display: none; }
+  #circles .circles-section2 .col-1 {
+    background: url(../assets/imgs/hipsterIcons/glasses.png);
+    background-size: 30%;
+    background-position-x: 88%;
+    background-repeat: no-repeat; }
+    #circles .circles-section2 .col-1 h3 {
+      margin-left: 120px; }
+  #circles .circles-section2 .col-2 {
+    background: url(../assets/imgs/hipsterIcons/coffee.png);
+    background-size: 30%;
+    background-position-x: 24%;
+    background-repeat: no-repeat; }
+    #circles .circles-section2 .col-2 h3 {
+      margin-left: 63%; }
+  #circles .circles-section2 .col-3 {
+    background: url(../assets/imgs/hipsterIcons/convers.png);
+    background-size: 30%;
+    background-position-x: 88%;
+    background-repeat: no-repeat; }
+    #circles .circles-section2 .col-3 h3 {
+      margin-left: 120px; }
+  #circles .circles-section3, #circles .circles-footer {
+    max-width: 100%;
+    margin-top: 50px;
+    padding: 20px 16%;
+    background: rgba(255, 255, 255, 0.09); }
+    #circles .circles-section3 h4, #circles .circles-footer h4 {
+      color: #C1BBC1; }
+    #circles .circles-section3 p, #circles .circles-footer p {
+      color: #E6E1E6; }
+    #circles .circles-section3 .large-6:last-child, #circles .circles-footer .large-6:last-child {
+      margin-top: 39px; }
+  #circles .circles-footer {
+    margin-top: 0;
+    padding-top: 60px;
+    text-align: center; }
+    #circles .circles-footer a {
+      transition: border-bottom .3s ease;
+      color: #B7ADC5; }
+      #circles .circles-footer a:hover {
+        border-bottom: 3px solid #A951A0; }
+    #circles .circles-footer .large-6 {
+      float: none;
+      clear: left;
+      max-width: 100%;
+      margin: 0 auto; }
+      #circles .circles-footer .large-6:last-child {
+        margin-top: 0;
+        margin-left: 90px; }
 
 /* landing - MAIN
 --------------------------------------*/

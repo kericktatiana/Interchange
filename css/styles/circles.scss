@@ -1,5 +1,6 @@
 $grey: #312e30;
 $white: #d3d3d3;
+$light-purple: #C1BBC1;
 
 #circles {
 	background: 
@@ -10,9 +11,11 @@ $white: #d3d3d3;
 	width: 100%;
 
 	#circles-nav {
+		width: 100%;
+		text-align: center;
+
 		ul {
-			margin-left: 18%;
-			padding: 20px 0 25px 0;
+			padding: 40px 0 25px 0;
 
 			li {
 				list-style-type: none;
@@ -22,9 +25,11 @@ $white: #d3d3d3;
 				a {
 					font-size: 17px;
 					transition: border-bottom .3s ease;
+					color: #B7ADC5;
 
 					&:hover {
-						border-bottom: 3px solid $accent-blue;
+						border-bottom: 3px solid #A951A0; 
+
 					}
 				}
 
@@ -37,14 +42,16 @@ $white: #d3d3d3;
 
 		ul::after {
 			content: url(../assets/imgs/hipsterIcons/circles-logo.png);
-			margin-left: -49%;
+			right: 43%;
+			top: 10px;
+			position: absolute;
 		}
 	}
 
 	.circles-section1 {
 		text-align: center;
-		margin-top: 80px;
-		margin-bottom: 50px;
+		margin-top: 50px;
+		margin-bottom: 70px;
 		background: #131010;
 		width: 400px;
 		height: 400px;
@@ -77,12 +84,95 @@ $white: #d3d3d3;
 
 
 	.circles-section2 {
-		.large-4 {
-			display: block;
-			clear: left;
-			float: none;
+		h3 { 
+			color: $light-purple;
+			width: 250px;
+	    text-align: center;
+	    padding: 100px 0 0 40px; 
 		}
 
+		.large-4 {
+			float: none;
+			clear: left;
+			height: 332px;
+			width: 100%;
+
+			img { display: none; }
+		}
+
+		.col-1 {
+			background: url(../assets/imgs/hipsterIcons/glasses.png);
+			background-size: 30%;
+			background-position-x: 88%;
+			background-repeat: no-repeat;
+
+			h3 {
+				margin-left: 120px;
+			}
+		}
+
+
+		.col-2 {
+			background: url(../assets/imgs/hipsterIcons/coffee.png);
+			background-size: 30%;
+			background-position-x: 24%;
+			background-repeat: no-repeat;
+
+			h3 {
+				margin-left: 63%;
+			}
+		}
+
+		.col-3 {
+			background: url(../assets/imgs/hipsterIcons/convers.png);
+			background-size: 30%;
+			background-position-x: 88%;
+			background-repeat: no-repeat;
+
+			h3 {
+				margin-left: 120px;
+			}
+		}
+	}
+
+	.circles-section3, .circles-footer {
+		max-width: 100%;
+		margin-top: 50px;
+		padding: 20px 16%;
+		background: rgba(255, 255, 255, 0.09);
+			
+		h4 { color: $light-purple; }
+		p { color: #E6E1E6; }
+
+		.large-6:last-child { margin-top: 39px; }
+	}
+
+	.circles-footer { 
+		margin-top: 0;
+		padding-top: 60px; 
+		text-align: center;
+
+		a {
+			transition: border-bottom .3s ease;
+			color: #B7ADC5;
+
+			&:hover {
+				border-bottom: 3px solid #A951A0; 
+
+			}
+		}
+
+		.large-6 {
+			float: none;
+			clear: left;
+			max-width: 100%;
+			margin: 0 auto;
+
+			&:last-child { 
+				margin-top: 0; 
+				margin-left: 90px;
+			}
+		}
 	}
 
 }
