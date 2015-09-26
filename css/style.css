@@ -158,7 +158,7 @@ a {
   background: #E2E3E3; }
   #grid #grid-nav {
     text-align: center;
-    background: url(../assets/imgs/bgs/workspace.jpg);
+    background: url(../assets/imgs/bgs/grid/workspace.jpg);
     background-size: 100%;
     background-position-y: -456px;
     background-repeat-y: no-repeat;
@@ -190,7 +190,7 @@ a {
       #grid .grid-section2 .large-4 img {
         display: none; }
     #grid .grid-section2 .col-1 {
-      background: url(../assets/imgs/bgs/woodtop.jpg) #CACACA;
+      background: url(../assets/imgs/bgs/grid/woodtop.jpg) #CACACA;
       background-size: 50%;
       background-repeat: no-repeat; }
       #grid .grid-section2 .col-1 h3 {
@@ -199,7 +199,7 @@ a {
         text-align: center;
         padding-top: 186px; }
     #grid .grid-section2 .col-2 {
-      background: url(../assets/imgs/bgs/workspace.jpg) #9C9C9C;
+      background: url(../assets/imgs/bgs/grid/workspace.jpg) #9C9C9C;
       background-size: 50%;
       background-repeat: no-repeat;
       background-position-x: 100%;
@@ -221,7 +221,7 @@ a {
   #grid .grid-section3 {
     max-width: 100%;
     height: 400px;
-    background: url(../assets/imgs/bgs/airspace.jpg);
+    background: url(../assets/imgs/bgs/grid/airspace.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: -332px;
@@ -424,7 +424,7 @@ a {
   .darkly-section2 .col-3 {
     background: url(../assets/imgs/bgs/darkly/office.jpg);
     background-size: 100%;
-    padding: 160px 232px; }
+    padding: 160px 226px; }
     .darkly-section2 .col-3 h3 {
       color: #fbfbfc;
       background: rgba(0, 0, 0, 0.5);
