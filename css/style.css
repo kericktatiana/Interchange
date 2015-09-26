@@ -359,6 +359,90 @@ a {
         margin-top: 0;
         margin-left: 90px; }
 
+#darkly {
+  background: #000; }
+
+#darkly-nav ul {
+  padding-left: 9%; }
+  #darkly-nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+    width: 50px; }
+    #darkly-nav ul li a {
+      color: #fdfbfc;
+      font-size: 18px;
+      font-weight: 100;
+      transition: font-weight 0.3s ease; }
+      #darkly-nav ul li a:hover {
+        font-weight: 400;
+        color: #8b4458; }
+#darkly-nav ul::before {
+  content: url(../assets/imgs/hipsterIcons/darkly-logo.png);
+  position: relative;
+  top: 16px; }
+
+.darkly-section1 {
+  max-width: 100%;
+  height: 500px;
+  border-bottom: 2px solid #fbfbfc;
+  background: url(../assets/imgs/bgs/darkly/new-york-bw.jpg);
+  background-position-y: -240px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 60px 12%; }
+  .darkly-section1 h1 {
+    color: #552936; }
+  .darkly-section1 p {
+    color: #773a4b;
+    width: 500px;
+    font-size: 16px; }
+
+.darkly-section2 {
+  max-width: 100%; }
+  .darkly-section2 .large-4 {
+    border: 2px solid #fbfbfc;
+    height: 340px; }
+    .darkly-section2 .large-4 img {
+      display: none; }
+    .darkly-section2 .large-4 h3 {
+      width: 250px; }
+  .darkly-section2 .col-1 {
+    background: url(../assets/imgs/bgs/darkly/bridge.jpg);
+    background-size: 100%;
+    padding: 50px 20px; }
+    .darkly-section2 .col-1 h3 {
+      color: #fbfbfc;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px 5px; }
+  .darkly-section2 .col-2 {
+    background: url(../assets/imgs/bgs/darkly/traffic.jpg);
+    background-size: 100%;
+    padding: 120px 157px; }
+    .darkly-section2 .col-2 h3 {
+      color: #fbfbfc;
+      text-align: center; }
+  .darkly-section2 .col-3 {
+    background: url(../assets/imgs/bgs/darkly/office.jpg);
+    background-size: 100%;
+    padding: 160px 232px; }
+    .darkly-section2 .col-3 h3 {
+      color: #fbfbfc;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px 5px;
+      text-align: right; }
+
+.darkly-section3 {
+  margin: 40px auto; }
+  .darkly-section3 h4, .darkly-section3 p {
+    color: #fbfbfc; }
+  .darkly-section3 .large-6:last-child p {
+    margin-top: 42px; }
+
+.darkly-footer p, .darkly-footer a {
+  color: #fbfbfc; }
+.darkly-footer a:hover {
+  color: #8b4458; }
+
 /* landing - MAIN
 --------------------------------------*/
 #main {

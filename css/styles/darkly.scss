@@ -1,0 +1,125 @@
+#darkly {
+	background: #000;
+}
+
+#darkly-nav {
+	ul {
+		padding-left: 9%; 
+
+		li {
+			display: inline-block;
+			margin: 0 40px;
+			width: 50px;
+			
+			a {
+				color: #fdfbfc;
+				font-size: 18px;
+				font-weight: 100;
+				transition: font-weight 0.3s ease;
+
+				&:hover {
+					font-weight: 400;
+					color: #8b4458;
+				}
+			}
+		}
+	}
+
+	ul::before {
+			content: url(../assets/imgs/hipsterIcons/darkly-logo.png);
+			position: relative;
+			top: 16px;
+		}
+}
+
+
+.darkly-section1 {
+	max-width: 100%;
+	height: 500px;
+	border-bottom: 2px solid #fbfbfc;
+	background: url(../assets/imgs/bgs/darkly/new-york-bw.jpg);
+	background-position-y: -240px;
+	background-repeat: no-repeat; 
+	background-size: 100%;
+	padding: 60px 12%;
+
+	h1 {
+		color: #552936;
+	}
+
+	p {
+		color: #773a4b;
+		width: 500px;
+		font-size: 16px;
+	}
+}
+
+.darkly-section2 {
+	max-width: 100%;
+
+	.large-4 {
+		border: 2px solid #fbfbfc;
+		height: 340px;
+
+		img { display: none; }
+
+		h3 {
+			width: 250px;
+		}
+	}
+
+	.col-1 {
+		background: url(../assets/imgs/bgs/darkly/bridge.jpg);
+		background-size: 100%;
+		padding: 50px 20px;
+
+		h3 { 
+			color: #fbfbfc; 
+			background: rgba(0, 0, 0, 0.5);
+			padding: 10px 5px;
+		}
+	}
+
+	.col-2 {
+		background: url(../assets/imgs/bgs/darkly/traffic.jpg);
+		background-size: 100%;
+		padding: 120px 157px;
+
+		h3 { 
+			color: #fbfbfc;
+			text-align: center;
+		}
+	}
+
+	.col-3 {
+		background: url(../assets/imgs/bgs/darkly/office.jpg);
+		background-size: 100%;
+		padding: 160px 232px;
+
+		h3 { 
+			color: #fbfbfc; 
+			background: rgba(0, 0, 0, 0.5);
+			padding: 10px 5px;
+			text-align: right;
+		}
+	}
+}
+
+.darkly-section3 {
+	margin: 40px auto;
+
+	h4, p { color: #fbfbfc; }
+
+	.large-6:last-child { 
+		p { margin-top: 42px; } 
+	}
+}
+
+
+.darkly-footer {
+	p, a { color: #fbfbfc; }
+
+	a:hover {
+		color: #8b4458;
+	}
+}
