@@ -45,45 +45,11 @@
 		}
 	}
 
-	
-
-	.displays {
-		height: 300px;
-		text-align: center;
-		margin: 20px 0;
-
-		a {
-
-			img {
-				transition: filter 0.3s ease;
-			}
-
-			span {
-				background-color: rgba(41, 10, 51, 0.5);
-				padding: 15px 24% 20px 24%;
-				color: #e9e9e9;
-				transition: background-color 0.3s ease;
-
-				&:hover {
-					background-color: rgba(41, 10, 51, 0.8);
-				}
-
-				p {
-					width: 150px;
-					display: inline-block;
-				}
-			}
-		}
-
-		a:hover {
-			img {
-				-webkit-filter: blur(.9px);
-				filter: blur(1px);
-			}
-
-			span {
-				background-color: rgba(41, 10, 51, 0.8);
-			}
+	.row-display {
+		max-width: 100%;
+		
+		.displays {
+			
 		}
 	}
 }
