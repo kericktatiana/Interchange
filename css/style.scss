@@ -5,8 +5,81 @@
 @import 'styles/circles.scss';
 @import 'styles/darkly.scss';
 
+$background: #2B2B2A;
+$heading: #b5b5b5;
+$text: #e4e4e4;
+$link: #937782;
+
+
 /* landing - MAIN
 --------------------------------------*/
 #main {
-	
+	h2 {
+		color: $heading;
+	}
+
+	a { 
+		color: $link; 
+		transition: color 0.3s ease;
+
+		&:hover { color: $heading; }
+	}
+
+	.header {
+		background: url(../assets/imgs/bgs/colortheory.jpg);
+		background-size: 100%;
+		height: 400px;
+
+		margin-top: -3px;
+		padding: 100px 0;
+	}
+
+	.description {
+		background: $background;
+		padding: 20px 50px;
+
+		.large-12 {
+			padding: 0 20%;
+
+			p {
+				color: $text;
+			}
+		}
+	}
+
+
+	.row-display {
+		margin-top: 80px;
+		margin-bottom: 80px;
+		max-width: 70rem;
+
+		.displays {
+			text-align: center;
+			margin-bottom: 40px;
+
+			a {
+				color: $background;
+				font-size: 1.5em;
+
+				p { margin-top: 10px; }
+
+				&:hover {
+					color: $link;
+
+					img {
+						-webkit-filter: blur(1px);
+						filter: blur(1px);
+					}
+				}
+			}
+		}
+	}
+
+
+	.footer {
+		background: $background;
+		padding-top: 20px;
+
+		p { color: $text; }
+	}
 }
