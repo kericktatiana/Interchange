@@ -28,11 +28,5 @@
 		"img": "screenshots/darkly.jpg",
 		"container": "darkly",
 		"divs": "darkly"
-	},
-	{
-		"title": "Filler",
-		"img": "screenshots/hipstumfiller.jpg",
-		"container": "filler",
-		"divs": "filler"
 	}
 ]

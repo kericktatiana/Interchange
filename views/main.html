@@ -2,15 +2,24 @@
 
 	<div class="row full">
 		<div class="large-12 header">
-			<h1>InterChange</h1>
-			<h3>Design Playground</h3>
+			<img src="assets/imgs/logo.png">
+			<h2>CSS Playground</h2>
 		</div>
 	</div>	
+
+	<div class="row full description text-center">
+		<div class="large-12 columns">
+			<p>Interchange is a personal Angular project to play around with designs, layouts, and various css properties.</p>
+
+			<h2>View some designs</h2>
+			<hr />
+		</div>
+	</div>
 
 
 	<div class="row row-display">
 		<div ng-repeat="display in displays">
-			<div class="displays">
+			<div class="large-4 columns displays">
 				<a href="#/{{ $index }}">
 					<img src="assets/imgs/{{ display.img }}">
 					<span><p>{{ display.title}}</p></span>
@@ -20,15 +29,11 @@
 	</div>
 
 
-	<div class="row full">
-		<div class="large-12 footer">
-			<div class="large-6 column">
-				<p>&lt;&nbsp;/&gt; with <span class="fi-heart"> by <a href="http://tatianakerick.com">Tatiana Kerick</a></span></p>
-			</div>
+	<div class="row full footer">
+		<div class="large-12">
+			<p>&lt;&nbsp;/&gt; with <span class="fi-heart"> by <a href="http://tatianakerick.com">Tatiana Kerick</a></span></p>
 
-			<div class="large-6 column">
-				<p>&copy; 2015</p>
-			</div>
+			<p>&copy; 2016</p>
 		</div>
 	</div>
 	
