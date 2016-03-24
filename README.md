@@ -3,7 +3,7 @@ CSS Playground
 
 http://misstatiana.github.io/Interchange/
 
-Interchange is an Angular project that calls out different stylesheets when selecting a certain view. 
+Interchange is an Angular project that calls out different stylesheets to the same view. 
 
 ![Interchange Home](assets/imgs/screenshots/interchange.png)
 
